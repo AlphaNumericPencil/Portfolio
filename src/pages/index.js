@@ -91,10 +91,10 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>My goal is to give the internet a new coat of paint by helping people
+                            <h2>The goal of this site is to give the internet a new coat of paint by helping people
                             create responsive and beautiful websites.</h2>
                         </header>
-                        <p>This is a simple gallery to showcase my work as a developer and to facilitate contact. All of my websites are designed to maximize the engagement of the end user with the contents of the site, and present information or products in a clear and intuitive way.</p>
+                        <p>This is a gallery to showcase my work as a developer and to facilitate contact. All of my websites are designed to maximize the engagement of the end user with the contents of the site, and present information or products in a clear and intuitive way.</p>
                         <ul className="actions">
                             <li><a href="SiteResume.pdf" target="_blank" className="button">My Resume</a></li>
                         </ul>
