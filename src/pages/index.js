@@ -79,7 +79,7 @@ class HomeIndex extends React.Component {
     render() {
         const siteTitle = "George's"
         const siteDescription = "Site description"
-
+        
         return (
             <Layout>
                 <Helmet>
@@ -94,9 +94,9 @@ class HomeIndex extends React.Component {
                             <h2>My goal is to give the internet a new coat of paint by helping people
                             create responsive and beautiful websites.</h2>
                         </header>
-                        <p>This is a gallery to showcase my work as a developer. I have a B.S. in Computer Science and I have experience building websites in a wide variety of frameworks and ecosystems. Please feel free to reach out with your specific needs and budget. Whatever your price range, we will work with you to put together a website that looks professional across all devices.</p>
+                        <p>This is a simple gallery to showcase my work as a developer and to facilitate contact. All of my websites are designed to maximize the engagement of the end user with the contents of the site, and present information or products in a clear and intuitive way.</p>
                         <ul className="actions">
-                            <li><a href="resume" target="_blank" className="button">My Resume</a></li>
+                            <li><a href="SiteResume.pdf" target="_blank" className="button">My Resume</a></li>
                         </ul>
                     </section>
 
@@ -110,14 +110,14 @@ class HomeIndex extends React.Component {
                             description
                         }))} />
 
-                        <ul className="actions">
+                        {/* <ul className="actions">
                             <li><a href="" className="button">Full Portfolio</a></li>
-                        </ul>
+                        </ul> */}
                     </section>
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>If you have any questions or would like to purchase a website or application, feel free to contact us.</p>
+                        <p>If you have any questions or would like to start designing your own webapp or site, feel free to get in contact.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
@@ -126,10 +126,11 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
+                                    <ul className="actions">
+                                    <li><input type="submit" value="Send Message" action="mailto:ContactDesignGrove@gmail.com" method="post" enctype="text/plain" /></li>
                                 </ul>
+                                </form>
+                                
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
@@ -144,7 +145,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">ContactDesignGrove@gmail.com</a>
+                                        <a href="" >ContactDesignGrove@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
