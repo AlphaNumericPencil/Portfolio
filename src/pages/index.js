@@ -120,7 +120,7 @@ class HomeIndex extends React.Component {
                         <p>If you have any questions or would like to start designing your own webapp or site, feel free to get in contact.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#"   name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
+                                <form method="post" action="#" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -128,7 +128,7 @@ class HomeIndex extends React.Component {
                                         <input type="hidden" name="bot-field" />
                                     </div>
                                     <ul className="actions">
-                                    <li><input type="submit" value="Send Message" action="mailto:ContactDesignGrove@gmail.com" method="post" enctype="text/plain" /></li>
+                                    <li><input type="submit" value="Send Message" className="special" method="post" enctype="text/plain" /></li>
                                 </ul>
                                 </form>
                                 
@@ -140,10 +140,10 @@ class HomeIndex extends React.Component {
                                         Brick, New Jersey<br />
                                         United States
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
                                         732-330-2694
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="" >ContactDesignGrove@gmail.com</a>
