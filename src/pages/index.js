@@ -120,11 +120,12 @@ class HomeIndex extends React.Component {
                         <p>If you have any questions or would like to start designing your own webapp or site, feel free to get in contact.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <form method="post" action="#"   name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                        <input type="hidden" name="bot-field" />
                                     </div>
                                     <ul className="actions">
                                     <li><input type="submit" value="Send Message" action="mailto:ContactDesignGrove@gmail.com" method="post" enctype="text/plain" /></li>

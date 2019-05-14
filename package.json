@@ -16,11 +16,11 @@
     "react-images": "^0.5.19"
   },
   "keywords": [
-    "gatsby", "portfolio"
+    "gatsby",
+    "portfolio"
   ],
   "license": "MIT",
   "scripts": {
-
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
