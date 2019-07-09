@@ -8,8 +8,8 @@ import Gallery from '../components/Gallery'
 import resume from '../assets/images/SiteResume.pdf'
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
+import thumb03 from '../assets/images/thumbs/CatsCantDraw.jpg'
+import thumb04 from '../assets/images/thumbs/AsburyBrass.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 
@@ -24,7 +24,6 @@ const DEFAULT_IMAGES = [
     { id: '1', src: 'https://pwa-talk.herokuapp.com/', thumbnail: thumb05, caption: 'Talk To Us', description: 'Under construction hosting platform for an up-and-coming political/social podcast run by friends and scholars.'},
      { id: '2', src: 'https://determined-tesla-5921bc.netlify.com/', thumbnail: thumb04, caption: 'Asbury Brass', description: 'The buisness website for a local brass ensemble located in Asbury, New Jersey'},
      { id: '3', src: 'https://suspicious-goldstine-a73bca.netlify.com/', thumbnail: thumb03, caption: 'Cats Cant Draw', description: 'Comission portfolio for Jess, a NYC based cartoonist/artist'},
-
     
     // { id: '2', src: 'https://abuse-cycle.herokuapp.com/', thumbnail: thumb04, caption: 'Abuse is a Cycle', description: 'Under construction hosting platform for a free resource aimed at arming the victims of violent abuse with the tools they need to escape the cycle.'},
     // { id: '3', src: 'https://democratic-dj-app.herokuapp.com/', thumbnail: thumb03, caption: 'Democratic DJ', description: 'A collaborative playlist builder using the Spotify API and Next.js'},
