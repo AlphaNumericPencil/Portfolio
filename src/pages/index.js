@@ -36,7 +36,6 @@ const DEFAULT_IMAGES = [
     //{ id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     //{ id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
-
 class HomeIndex extends React.Component {
 
     constructor() {
@@ -86,7 +85,7 @@ class HomeIndex extends React.Component {
     render() {
         const siteTitle = "George's Portfolio"
         const siteDescription = "A humble developer's place of zen"
-        
+  ``      
         return (
             <Layout>
                 <Helmet>
