@@ -21,12 +21,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://pwa-talk.herokuapp.com/', thumbnail: thumb05, caption: 'Talk To Us', description: 'Under construction hosting platform for an up-and-coming political/social podcast run by friends and scholars.'},
-     { id: '2', src: 'https://determined-tesla-5921bc.netlify.com/', thumbnail: thumb04, caption: 'Asbury Brass', description: 'The buisness website for a local brass ensemble located in Asbury, New Jersey'},
+    { id: '1', src: 'https://determined-tesla-5921bc.netlify.com/', thumbnail: thumb04, caption: 'Asbury Brass', description: 'The buisness website for a local brass ensemble located in Asbury, New Jersey'},
+    { id: '2', src: 'https://pwa-talk.herokuapp.com/', thumbnail: thumb05, caption: 'Talk To Us', description: 'Under construction hosting platform for an up-and-coming political/social podcast run by friends and scholars.'},
      { id: '3', src: 'https://suspicious-goldstine-a73bca.netlify.com/', thumbnail: thumb03, caption: 'Cats Cant Draw', description: 'Comission portfolio for Jess, a NYC based cartoonist/artist'},
-    
-    // { id: '2', src: 'https://abuse-cycle.herokuapp.com/', thumbnail: thumb04, caption: 'Abuse is a Cycle', description: 'Under construction hosting platform for a free resource aimed at arming the victims of violent abuse with the tools they need to escape the cycle.'},
      { id: '4', src: 'https://democratic-dj-app.herokuapp.com/', thumbnail: thumb06, caption: 'Democratic DJ', description: 'A collaborative playlist builder using the Spotify API and Next.js'},
+
+    // { id: '2', src: 'https://abuse-cycle.herokuapp.com/', thumbnail: thumb04, caption: 'Abuse is a Cycle', description: 'Under construction hosting platform for a free resource aimed at arming the victims of violent abuse with the tools they need to escape the cycle.'},
     // { id: '4', src: 'https://georgerohn.neocities.org/#hero', thumbnail: thumb02, caption: 'RC Landscaping', description: 'A website built to showcase the work of a local landscaping company.'}
     
   
@@ -85,7 +85,7 @@ class HomeIndex extends React.Component {
     render() {
         const siteTitle = "George's Portfolio"
         const siteDescription = "A humble developer's place of zen"
-  ``      
+        
         return (
             <Layout>
                 <Helmet>
